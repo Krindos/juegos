@@ -1,0 +1,45 @@
+
+header{
+    /*propiedades de la caja*/
+    background-color: rgb(134, 107, 149);
+    justify-self: center;
+
+    /*propiedades del texto*/
+    text-align: center;
+    color: rgb(71, 7, 109);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+#container{
+    /*propiedades de la caja*/
+    display:inline;
+    background-color: rgb(166, 252, 255);
+}
+#menu {
+    /*propiedades de la caja*/
+    background-color: rgb(113, 113, 236);
+    width: 106px;
+    justify-self: left;
+
+    /*propiedades del texto*/
+    text-align: center;
+    color: blue;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+button{
+    /*propiedades de la caja*/
+    border-radius: 10px;
+    border-color: rgb(39, 39, 241);
+    margin: 5%;
+    width: 90%;
+    height: 1.5em;
+    background-color:   rgb(69, 69, 236);
+}
+
+#juego{
+    /*propiedades de la caja*/
+    background-color: rgb(134, 217, 231);
+    display: inline;
+}
