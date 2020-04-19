@@ -13,7 +13,9 @@ header{
 
 #container{
     /*propiedades de la caja*/
-    display:inline;
+    display: grid;
+    grid-template-columns: 110px auto;
+    width: 100%;
     background-color: rgb(166, 252, 255);
 }
 #menu {
@@ -39,7 +41,7 @@ button{
 }
 
 #juego{
-    /*propiedades de la caja*/
-    background-color: rgb(134, 217, 231);
-    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
