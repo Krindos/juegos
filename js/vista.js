@@ -5,11 +5,15 @@ tres alineadas, ya sea verticalmente, horizontalmente o en diagonal
 */
 
 function iniciarTateti(){
+    var titulo=document.getElementById("encabezado");
+    titulo.textContent="Ta-Te-Ti";
     borrarElementosPrevios();
     generarTablero(3,3);
 
 }
 function iniciarPares(){
+    var titulo=document.getElementById("encabezado");
+    titulo.textContent="Buscando Pares";
     borrarElementosPrevios();
     generarTablero(10,4);
 
@@ -31,8 +35,13 @@ function borrarElementosPrevios(){
 
 // Genera un tablero con las filas y columnas indicadas
 function generarTablero(filas,columnas){
-    
+    //mustro el boton para inicira la partida
+    var btnIniciar=document.getElementById("iniciar");
+    btnIniciar.style.display="inherit";
+
+    //selecciono el area del contenedor del tablero
     var contenedor=document.getElementById("juego");
+    contenedor.style.paddingTop="5%";
 
     //genero el tablero que contendrá las casillas
     var tablero= document.createElement("div");
