@@ -45,9 +45,11 @@ function generarTablero(filas,columnas){
     for(var i=0; i<filas; i++){
         for(var j=0; j<columnas; j++){
             
+            //dimension de las casillas
             let dimensionX=100/columnas;
             let dimensionY=dimensionX;
 
+            //creacion de las casillas
             var casilla=document.createElement("div");
             casilla.id="casilla"+i+j;
             casilla.className="casilla";
